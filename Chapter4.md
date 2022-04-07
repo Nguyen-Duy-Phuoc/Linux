@@ -1,0 +1,34 @@
+# Reading Manual Pages
+- Các section cơ bản của lệnh `Man`:
+	- User command: Lệnh người dùng và Shell
+	- Systeam calls: Kernel được gọi từ không gian người dùng
+	- Library funtions: Chức năng thư viện
+	- Special files: Các files đặc biệt
+	- File formats: Là các định dạng tệp và hệ thống tập tin
+	- Games: Phần để giải trí
+	- Conventions, standards, and miscellaneous: Các giao thức với hệ thống files
+	- System administration and privileged commands: Là superuser và các lệnh của quản trị viên hệ thống
+	- Linux kernel API
+- Cấu trúc của trang Man:
+	- Name(tên lệnh): Khái quát tác dụng của lệnh
+	- Synopsis: Cú pháp của lệnh
+	- Description: Mô tả cụ thể hơn về tác dụng của lệnh
+	- Options: Liệt kê các tùy chọn lệnh và tác dụng của chúng
+	- Files: Liệt kê các file mà lệnh sử dụng hoặc tham chiếu đến
+	- See Also: Liệt kê các lệnh, các tài liệu có liên quan đến lệnh
+	- Reporting bugs: Địa chỉ liên hệ nếu gặp lỗi khi sử dụng lệnh
+	- Author: Tên tác giả của lệnh
+- `Man` là từ viết tắt của `manual`, được coi là tài liệu trực tuyến trong Linux đã lưu trữ toàn bộ các lệnh có sẵn với các thông tin tham khảo khá đầy đủ cho phép người dùng có thể mở ra để nhận được trợ giúp
+- Để dùng lệnh `man` thì sẽ gõ `man` trên command
+- Các option của lệnh `man`:
+	- `man -f`: Hiển thị chức năng của lệnh dùng để làm gì.
+	- `man -a`: Hiển thị tất cả các trang hướng dẫn sử dụng phần giới thiệu.
+	- `man -k`: Tìm kiếm lệnh đã cho dưới dạng biểu thức chính quy trong tất cả các sách hướng dẫn và nó trả về các trang thủ công với số phần mà nó được tìm thấy.
+	- `man -w`: Nó in vị trí thực của tệp. 
+	- `man -I`: Phân biệt chữ hoa và chữ thường của lệnh
+# Reading Info Documentation
+- Trang `man` có một lượng nhỏ nội dung tập trung vào một chủ đề cụ thể, lệnh, công cụ hoặc tệp.
+- Tài liệu `info` là một tài liệu toàn diện. Thông tin cung cấp những điều cải tiến sau:
+	- Chứa tất cả các thông tin cần thiết của hệ thống
+	- Siêu liên kết
+	- Tìm kiếm toàn bộ văn bản, tài liệu
